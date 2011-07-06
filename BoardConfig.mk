@@ -18,7 +18,8 @@ TARGET_RECOVERY_INITRC := device/telechips/tcc8803/recovery_init.rc
 TARGET_PREBUILT_KERNEL := device/telechips/tcc8803/kernel
 BOARD_KERNEL_CMDLINE := console=ttyTCC,115200n8
 BOARD_KERNEL_BASE := 0x40000000
-BOARD_KERNEL_PAGESIZE := 4096
+#BOARD_KERNEL_PAGESIZE := 
+include device/telechips/tcc8803/BoardConfig.pagesize.mk
 
 # fix this up by examining /proc/mtd on a running device
 # dev:    size   erasesize  name
