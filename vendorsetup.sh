@@ -1,6 +1,7 @@
 add_lunch_combo cyanogen_agora_8k-eng
 add_lunch_combo cyanogen_em73-eng
 add_lunch_combo cyanogen_em73_8k-eng
+add_lunch_combo cyanogen_em73_ak_8k-eng
 add_lunch_combo cyanogen_em73_sx-eng
 add_lunch_combo cyanogen_kyros7022_8k-eng
 add_lunch_combo cyanogen_ly_f521_8k-eng
