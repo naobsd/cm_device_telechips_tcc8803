@@ -13,12 +13,12 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/dictionaries
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cyanogen_inet_c_8k
+PRODUCT_NAME := cyanogen_inet11a3_8k
 PRODUCT_BRAND := telechips
 PRODUCT_DEVICE := tcc8803
-PRODUCT_MODEL := inet Capacitive 8K
+PRODUCT_MODEL := inet 11A3 8K
 PRODUCT_MANUFACTURER := inet
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=inet_c_8k BUILD_ID=GRJ22 BUILD_DISPLAY_ID=GRJ90 BUILD_FINGERPRINT=google/soju/crespo:2.3.4/GRJ22/121341:user/release-keys PRIVATE_BUILD_DESC="soju-user 2.3.4 GRJ22 121341 release-keys" BUILD_NUMBER=121341
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=inet11a3_8k BUILD_ID=GRJ22 BUILD_DISPLAY_ID=GRJ90 BUILD_FINGERPRINT=google/soju/crespo:2.3.4/GRJ22/121341:user/release-keys PRIVATE_BUILD_DESC="soju-user 2.3.4 GRJ22 121341 release-keys" BUILD_NUMBER=121341
 
 # Extra TCC8803 overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/telechips/tcc8803/overlay
