@@ -6,4 +6,6 @@ add_lunch_combo cyanogen_em73_sx-eng
 add_lunch_combo cyanogen_inet11a3_8k-eng
 add_lunch_combo cyanogen_inet11a4_8k-eng
 add_lunch_combo cyanogen_kyros7022_8k-eng
+add_lunch_combo cyanogen_ly_f521_800x480_8k-eng
 add_lunch_combo cyanogen_ly_f521_8k-eng
+add_lunch_combo cyanogen_n19_8k-eng
