@@ -8,5 +8,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_inet11a4_8k.mk \
     $(LOCAL_DIR)/cyanogen_kyros7022_8k.mk \
     $(LOCAL_DIR)/cyanogen_ly_f521_800x480_8k.mk \
-    $(LOCAL_DIR)/cyanogen_ly_f521_8k.mk \
-    $(LOCAL_DIR)/cyanogen_n19_8k.mk
+    $(LOCAL_DIR)/cyanogen_ly_f521_8k.mk
