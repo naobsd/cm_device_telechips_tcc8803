@@ -18,7 +18,7 @@ PRODUCT_BRAND := telechips
 PRODUCT_DEVICE := tcc8803
 PRODUCT_MODEL := EM73 SX
 PRODUCT_MANUFACTURER := Emdoor
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=em73_sx BUILD_ID=GRK39F BUILD_DISPLAY_ID=GWK74 BUILD_FINGERPRINT=google/soju/crespo:2.3.6/GRK39F/189904:user/release-keys PRIVATE_BUILD_DESC="soju-user 2.3.6 GRK39F 189904 release-keys" BUILD_NUMBER=189904
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=em73_sx BUILD_ID=GRK39F BUILD_FINGERPRINT=google/soju/crespo:2.3.6/GRK39F/189904:user/release-keys PRIVATE_BUILD_DESC="soju-user 2.3.6 GRK39F 189904 release-keys" BUILD_NUMBER=189904
 
 # Extra TCC8803 overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/telechips/tcc8803/overlay
@@ -29,21 +29,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     accelerometer.invert_x=1 \
     accelerometer.invert_z=1
 
-#
-# Set ro.modversion
-#
-ifdef CYANOGEN_NIGHTLY
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-TCC8803
-else
-    ifdef CYANOGEN_RELEASE
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-TCC8803
-    else
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-TCC8803-KANG
-    endif
-endif
+# Release name and versioning
+PRODUCT_RELEASE_NAME := TCC8803
+PRODUCT_VERSION_DEVICE_SPECIFIC :=
+-include vendor/cyanogen/products/common_versions.mk
 
 #
 # Copy TCC8803 specific prebuilt files
