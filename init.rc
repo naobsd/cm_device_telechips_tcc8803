@@ -317,7 +317,7 @@ on boot
     insmod /system/lib/modules/ehci-hcd.ko
     insmod /system/lib/modules/ohci-hcd.ko
     insmod /system/lib/modules/tcc_nand.ko
-    #insmod /system/lib/modules/ufsd.ko
+    insmod /system/lib/modules/ufsd.ko
     insmod /system/lib/modules/ump.ko ump_memory_size=0x3000000
     insmod /system/lib/modules/mali.ko mali_memory_size=0x12C00000
 
